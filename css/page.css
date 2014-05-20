@@ -1,0 +1,60 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    font-family: Helvetica;
+    font-size: 12pt;
+    background-color: #FFF7DE;
+    color: #121113;
+    height:100%;
+}
+
+h2
+{
+    font-size: 2em;
+    display: inline;
+}
+
+p
+{
+    font-size: 0.8em;
+    font-style: italic;
+
+}
+
+.indent
+{
+    margin-left: 20px;
+}
+
+.Wrapper
+{
+    min-height:100%;
+    position: relative;
+}
+
+.Content
+{
+    padding-bottom:60px;
+}
+
+.Footer{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    right:15px;
+    height:15px;
+    background-color: #222222;
+    color: Silver;
+    padding:5px;
+    vertical-align:middle;
+    font-size:0.7em;
+}
+
+.Footer a
+{
+    color:Yellow;
+}
